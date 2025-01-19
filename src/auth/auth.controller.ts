@@ -43,7 +43,6 @@ export class AuthController {
       user,
       token: this.authService.getJwtToken({id: user._id})
     };
-
   }
 
   /*@Get(':id')
